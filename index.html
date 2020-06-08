@@ -14,7 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +23,10 @@
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -44,7 +48,7 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
-        <h2><span>ELANAGAR MAHANEEYA ACHARYA PURISHAS SEVA TRUST </span><h2>
+        <h2><span>ELANAGAR MAHANEEYA ACHARYA PURUSHAS SEVA TRUST </span><h2>
         <h1 class="text-light"><a href="index.html"><span>EMAPS Trust </span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -56,7 +60,24 @@
           <li><a href="#about">About</a></li>
           <!-- <li><a href="#menu">Menu</a></li> -->
           <li><a href="#specials">Purpose</a></li>
-          <li><a href="#events">Events</a></li>
+
+          <!-- <li><a href="#events">Events</a></li> -->
+
+          <li class="drop-down"><a href="">Events</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                   <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+             
+            </ul>
+          </li>
+
+          
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#team">Team</a></li>
          
@@ -79,7 +100,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background: url(assets/img/slide/slide-mod.jpg);">
+          <div class="carousel-item active" style="background: url(assets/img/slide/HomePer_3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animated fadeInDown"><span>Adiyen </span> Vinkchapanam</h2>
@@ -88,8 +109,7 @@
 <span>ஸ்ரீ பத்மாவதி நாயிகா ஸமேத ஸ்ரீ ஸ்ரீனிவாஸ பரப்ரஹ்மணே நம:</span>
 <br> <br>
 ஸ்ரீஸ்ரீனிவாஸ பெருமாள் பங்குனி உத்திர மஹோத்ஸவம் மற்றும்  ஸ்ரீராமானுஜ ஜயந்தி மஹோத்ஸவம்
- பத்திரிகை
-                </p>
+ பத்திரிகை                </p>
                   <div>
                   <a href="#about" class="btn-menu animated fadeIn">About Us</a>
                   <a href="#events" class="btn-book animated fadeIn">Read More</a>
@@ -99,7 +119,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item">
+          <div class="carousel-item" style="background: url(assets/img/slide/slide-mod.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animated fadeInDown">ஸ்ரீமதே ராமாநுஜாய நம</h2>
@@ -123,7 +143,7 @@ EMAPS TRUST</p>
 
           <!-- Slide 3 -->
           <div class="carousel-item" style="background: url(assets/img/slide/Elanagar-Temple.jpg);">
-            <div class="carousel-background"><img src="assets/img/slide/Elanagar-Temple.jpg" alt=""></div>
+            <div class="carousel-background"><img src="assets/img/slide/Elanagar-Temple.jpg" alt=""></div> 
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animated fadeInDown">Ursavam Information</h2>
@@ -164,15 +184,134 @@ EMAPS TRUST</p>
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- ======= Features Section ======= -->
+    <section id="about" class="features">
+      <div class="container">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-4" data-aos="zoom-in">
+            <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Stala Puranam</h4>
+            </a>
+          </li>
+          <li class="nav-item col-4" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-toggle="tab" href="#tab-2">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">Emaps History</h4>
+            </a>
+          </li>
+          <li class="nav-item col-4" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-toggle="tab" href="#tab-3">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">Sri Vaishnavit Genealogy</h4>
+            </a>
+          </li>
+          <!-- <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+            <a class="nav-link" data-toggle="tab" href="#tab-4">
+              <i class="ri-store-line"></i>
+              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+            </a>
+          </li> -->
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>ELANAGAR (a) BALAPURI STHALAPURANAM</h3>
+                <p class="font-italic">
+
+
+
+
+<p>Thirumalai Thiruvenkatamudaiyan has been protecting all living beings on earth as Deity in the present era, called Kali. We get to know about the Greatness and miracles of Thirumalai Srinivasa Perumal not only from mythologies including the history of certain Holy Places (Sthala Puranam), Holy Verses by Sri Vaishnavite Saints like Azhwars, Acharyas but also from benefits that we get out of direct Divine Experiences in life.
+ </p>
+   <p>  From the Greatness of Thirupathi (Thirupathi Mahathmyam) we come to know about Tirumalai Nambigal (a) Srisailapurnar who devoted himself fully for service to Tiruvenkatamudaiyan by giving up the connections in the mundane life. Gaddam Thatha Desikan in the lineage of Thirumalai Nambigal followed the footsteps of his ancestors in letter and spirit by serving the Lord Thiruvenkatamudaiyan with total surrender. After seven years of unsalted diet (Lavana Varjitam) and Deekshai (Vapana Varjitam), the Lord Thiruvenkatamudaiyan appeared before Gaddam Thatha Desikan and told him to construct a temple for Him in five places in which he be preside with one hundredth of his power. 
+ </p>
+   <p>  As per the Holy Words of the Lord, Gaddam Thatha Desikan with the assistance of his five sons constructed a temple in each of the five places namely (1) Elanagar, (2) Paiyur, (3) Vilan Kuppam, (4) Natteri and (5) Karumbur. The Greatness of Sri Srinivasa Perumal in these five places cannot be just estimated. Through hearsay information and also through generation after generation of residents in these places we get to know the Divine Power of the Lord.
+ </p>
+
+                </p>
+
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/ElanS.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+ <p> It is since 70 years that Srivaishnavas living in villages inclusive of Elanagar village, started migrating to other places to eke out their livelihood. However, approximately before 300 years, for the purpose of propagation of Vishitadvaita philosophy few scholars moved out of Elanagar village and resided in Poundarikapuram, Gaddadarapuram, Thingalur, Urupppattur, Nelavoy villages.  Scholars of repute in Vishitadvaita philosophy hailed from these villages and their contribution to Srivaishnavism cannot be easily erased from memory and history.  On this score, it is important to note that even today these scholars and their families attach importance to their ancestral hereditary Elanagar village by prefixing in their title the name Elanagar followed by other titles in their invitations and Patrikas, thus establishing their indestructible identity. </p>
+
+<p>  The significance of Elanagar kshetra and other nearby kshetras, the remarkableness of the scholars who hailed from those places and their devoted way of life are to be imbibed by the younger generation and with this end, in view the elders belonging to Elanagar, decided to chalk out various ways. Initially they have resolved to make the younger generation to visit these places as often as possible.  Creating memory in the minds of younger generation now, Elanagar’s mahatmiyam will be carried to further generations. </p>
+
+<p>With this motive Elanagar Mahaneeya Acharya Purushas Seva Trust is formed.
+This was the ambition of Late Sri Elanager Thirualai Gaddam S Sampath Tathachariar (a) Pattanna (Retd. LIC).  This swami’s contribution, tireless effort and prartana made things possible.  The EMAPS trust is formed in memory of this swami.
+To make frequent visit to Elanagar, EMAPS trust is conducting few utsavaams every year, which could be the trigger for the younger generations to reach village, learn its gracious scholars’ fame and praise about its greatness. </p>
+
+               </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="assets/img/EmapsTrus.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>High lineage of Vedic Scholar & Pandits, Acharya Purushas</h3>
+                <p>
+ Elanagar OR BALAPURI Srivaishnavate Village is near Perunagar which has been inhabited by the Vedic Scholars like Gaddam, Madapushi (Madapusi - Poundarikapuram, Nelvoi), Nallan Chakravarthy (Gadhadarapuram, Thingaloor, Vuruputoor), Mudumbai, Potheriyar and Pillanjiyar all of whom had settled there in the earlier century (1212 A.D.) with Divine Grace and Blessings of the Lord.                </p>
+                </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/Azha_usta.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <!-- <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="font-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        -->
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+
+
+   <!-- ======= About Section ======= -->
+  
+  <!--  <section id="about" class="about">
       <div class="container-fluid">
 
         <div class="row">
 
-          <!-- <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/ElanS.jpg");'>
+          <!- - <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/ElanS.jpg");'>
             <a href="https://youtu.be/diDMM89Xm5c" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-          </div> -->
+          </div> - ->
 
           <div class="col-lg-11 d-flex flex-column justify-content-center align-items-stretch">
 
@@ -214,7 +353,7 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
 
  </p>
 
- <!--
+ <!- -
               <p class="font-italic">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua.
@@ -230,7 +369,7 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
                 culpa qui officia deserunt mollit anim id est laborum
               </p>
 
-            -->
+            - ->
             </div>
 
           </div>
@@ -238,16 +377,178 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-<!--
-     ======= Whu Us Section ======= -->
-    <!-- <section id="why-us" class="why-us">
+  -->
+
+    <!-- End About Section -->
+
+ <!--Acharya-->
+  <section id="Acharya" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="section-title">
+       <!--     <h2 class="head-title lg-line">The Acharya  Purusha<br></h2> -->
+
+<h2>Glory of Ilanagar <br></br><span>The Acharya  Purushas</span></h2>
+
+            <hr class="botm-line"> 
+            <p class="sec-para">Ilanagar has a great glory of Acharya Purushas </p>
+            <!--<a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a> -->
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8 col-xs-12">
+           <div style="visibility: visible;" class="col-sm-9 more-features-box">
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>Ever Wonder how this place has lineage to Acharya Purusha, </h3>
+                <p>Aakur Andavan, Velianallur Srimad Andavan and Kozhialam Swamighal are pretty close to Elanagar village. Moreover, many more great Spiritual Teachers, Saints and Seers have been born at Elanagar and adjoining ancient villages. They have been propagating Sri Vaishnava Philosophy and Sri Vishnu’s Great Miracles in many different ways..</p>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>7 AZHAGIYA SINGERS POORVIGAM</h3>
+                <p>A special feature of Elanagar is that it is the village where seven Azhagiyasingers (to be exact 10th, 22nd, 25th, 26th, 27th, 30th and 38th Chiefs of the Ahobila Mutt) were born. Pillaipakkam Srimad Azhagiya Singer’s Mother Kanakavalli Ammal was the daughter of Elanagar Thirumalai Geddam Srinivasa Thathachariyar. So Pillaipakkam Srimad AzhagiyaSinger is the Grandson (born to the daughter) of Elanagar village.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/Utsavar5 azhagiyasingar.PNG" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Utsavar of Azhagiysingar</h3>
+        <p>NarasimhaPuram Brindavanam</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/narasimhapuram2.jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Narasimhapuram</h3>
+        <p>Lakshmi Narasimhan Sanathi</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/narasimhapuram.jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Narasimhapuram</h3>
+        <p>Koil view</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/38thpattam_bridavanam.jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">38thpattam</h3>
+        <p>_bridavanam</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/37thpattam_bridavanam.jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">37thpattam_bridavanam</h3>
+        <p>37thpattam</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/30thpattam_bridavanam.jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">30thpattam_bridavanam</h3>
+        <p>30thpattam</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/26thpattam_bridavanam.jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">26thpattam_bridavanam</h3>
+        <p>26thpattam</p>
+      </div>
+    </div>
+    
+<div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/gallery/ElanAzbrund/25thpattam_bridavanam.jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">25thpattam_bridavanam</h3>
+        <p>25thpattam</p>
+      </div>
+    </div>
+    
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+    </div>
+  </section>
+
+
+     <!--======= Whu Us Section ======= -->
+     <section id="why-us" class="why-us">
       <div class="container">
 
         <div class="section-title">
           <h2>Why Trust <span>was formed</span></h2>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p>ELANAGAR MAHANEEYA ACHARYA PURUSHAS SEVA TRUST was formed with purpose to embrace srivaishavam & service to God in Ilanagar.</p>
         </div>
 
         <div class="row">
@@ -255,131 +556,33 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
           <div class="col-lg-4">
             <div class="box">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4>Bhagvata Kainkaryam</h4>
+              <p>Service to Bagavathas - For the benefit of Lord Sri Vishnu’s devotees who is coming from faraway distance and  who wish to worship Lord Sri Vishnu in temples located in and around Elanagar for short stay on their pilgrimage.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4>Ilanagar Perumal Utsavam</h4>
+              <p>Celeberte various utsavams for Ilanagar PErumal such as Ramanuja Jayanthi, Thiru Aadi Puram, Panguni Utharam, Puratasi Sravanam, </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <h4>Sri Vaishnava Aradhanam</h4>
+              <p>Support Srivaishnavam Community to Embrace Bhakthi , Acharyar Prabavam</p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Whu Us Section -->
- -->
+    </section>
 
-    <!-- ======= Specials Section ======= -->
-    <section id="specials" class="specials">
-      <div class="container">
-
-        <div class="section-title">
-          <h2> Our <span>Purpose</span></h2>
-          <p>Empower Vaishnavisam via Service</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-toggle="tab" href="#tab-1">SriVaishnavam - Way of Life</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-2">Bhagvata Kainkaryam</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-3">Ilanagar Glory</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-4">Vedas & Azhvar Sukthi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-5">Service to Acharyas</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Architecto ut aperiam autem id</h3>
-                    <p class="font-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/elanR.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="font-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/elanR.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="font-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/elanR.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="font-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/elanR.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="font-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/elanR.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Specials Section -->
-
+    <!-- End Whu Us Section -->
     <!-- ======= Events Section ======= -->
     <section id="events" class="events">
       <div class="container">
@@ -389,6 +592,46 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
         </div>
 
         <div class="owl-carousel events-carousel">
+
+        <div class="row event-item">
+            <div class="col-lg-6">
+              <img src="assets/img/Notifi_3.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
+              <h3>Perumal Utsavam  Information</h3>
+              <div class="price">
+                <p><span>₹ 1500</span></p>
+              </div>
+
+
+ <p class="font-italic">1. ஸ்வஸ்தி ஸ்ரீ விகாரி வருடம் பங்குனி மாதம் 24ந் தேதி 06-Apr-2019 திங்கட்கிழமை பாலநகர் என்கிற இளநகரில் ஸ்ரீ ஸ்ரீனிவாசப் பெருமாளுக்கு பங்குனி உத்திர மஹோத்ஸவம் நடைபெறுகிறது. 
+
+                2. ஸ்வஸ்திஸ்ரீ சார்வரி வருடம் சித்திரை மாதம் 15ம் தேதி 28-Apr-2020  செவ்வாய்க்கிழமை பாலநகர் என்கிற இளநகரில் ஸ்ரீராமானுஜ ஜயந்தி திருநக்ஷத்ர மஹோத்ஸவம் நடைபெறுகிறது. 
+</p>
+                <p class="font-italic">
+மேற்படி உத்ஸவங்கள் காலை 7.15 மணி முதல் நடக்க இருக்கிறது. அன்பர்கள் அனைவரும் வந்திருந்து திவ்யதம்பதிகள் மற்றும் ஸ்ரீராமானுஜரின் பரிபூர்ணானுக்ரஹத்திற்குப் பாத்திரர்களாகும்படி ப்ராத்திக்கிறோம்.
+
+மேற்படி உத்ஸவ தினங்களில் அன்பர்கள் கலந்துக் கொள்ள வேண்டி வேன் ஏற்பாடு பண்ணப் பட்டுள்ளது. அன்பர்கள் முன்கூட்டியே தெரிவித்து தங்கள் இருக்கைகள் மற்றும் ஏறும் இடத்தை கீழ்க்கண்ட நபர்களுக்கு துடர்பு கொண்டு பதிவு  செய்து கொள்ளவும்.                </p>
+
+
+<!--
+              <p class="font-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur
+              </p> -->
+            </div>
+          </div>
+
+         
 
           <div class="row event-item">
             <div class="col-lg-6">
@@ -433,6 +676,45 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
               <img src="assets/img/elanR.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 content">
+              <h3>Puratasi  Sravanam</h3>
+              <div class="price">
+                <p><span>₹ 1000</span></p>
+              </div>
+
+ <p class="font-italic">1. ஸ்வஸ்தி ஸ்ரீ விகாரி வருடம் பங்குனி மாதம் 24ந் தேதி 06-Apr-2019 திங்கட்கிழமை பாலநகர் என்கிற இளநகரில் ஸ்ரீ ஸ்ரீனிவாசப் பெருமாளுக்கு பங்குனி உத்திர மஹோத்ஸவம் நடைபெறுகிறது. 
+
+                2. ஸ்வஸ்திஸ்ரீ சார்வரி வருடம் சித்திரை மாதம் 15ம் தேதி 28-Apr-2020  செவ்வாய்க்கிழமை பாலநகர் என்கிற இளநகரில் ஸ்ரீராமானுஜ ஜயந்தி திருநக்ஷத்ர மஹோத்ஸவம் நடைபெறுகிறது. 
+</p>
+                <p class="font-italic">
+மேற்படி உத்ஸவங்கள் காலை 7.15 மணி முதல் நடக்க இருக்கிறது. அன்பர்கள் அனைவரும் வந்திருந்து திவ்யதம்பதிகள் மற்றும் ஸ்ரீராமானுஜரின் பரிபூர்ணானுக்ரஹத்திற்குப் பாத்திரர்களாகும்படி ப்ராத்திக்கிறோம்.
+
+மேற்படி உத்ஸவ தினங்களில் அன்பர்கள் கலந்துக் கொள்ள வேண்டி வேன் ஏற்பாடு பண்ணப் பட்டுள்ளது. அன்பர்கள் முன்கூட்டியே தெரிவித்து தங்கள் இருக்கைகள் மற்றும் ஏறும் இடத்தை கீழ்க்கண்ட நபர்களுக்கு துடர்பு கொண்டு பதிவு  செய்து கொள்ளவும்.                </p>
+
+
+<!--
+              <p class="font-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur
+              </p>
+            -->
+            </div>
+          </div>
+
+
+          <div class="row event-item">
+            <div class="col-lg-6">
+              <img src="assets/img/elanR.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
               <h3>Ramanujar Jayanthi</h3>
               <div class="price">
                 <p><span>₹ 1000</span></p>
@@ -466,12 +748,13 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
             </div>
           </div>
 
+
           <div class="row event-item">
             <div class="col-lg-6">
-              <img src="assets/img/Notifi.jpg" class="img-fluid" alt="">
+              <img src="assets/img/Notifi_3.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 content">
-              <h3>Adi Garudan</h3>
+              <h3>Thiru  AadiPooram</h3>
               <div class="price">
                 <p><span>₹ 500</span></p>
               </div>
@@ -507,6 +790,10 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
       </div>
     </section><!-- End Events Section -->
 
+
+
+
+
   
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
@@ -521,64 +808,64 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/AvataraUtsavam.JPG" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/AvataraUtsavam.JPG" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/Thiruadipooram.JPG" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/Thiruadipooram.JPG" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/PerumalPadmavathi.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/PerumalPadmavathi.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/PerumalEkantam.JPG" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/PerumalEkantam.JPG" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/IMG_0355.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG_0355.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/IMG_0356.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/IMG_0356.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/Donor-1.jpeg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/Donor-1.jpeg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/perumal.jpg" class="venobox" data-gall="gallery-item">
-                <img src="assets/img/gallery/perumal.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/Donor-2.jpeg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/Donor-2.jpeg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -597,64 +884,148 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
           <h2> Our <span>Team</span></h2>
           <p>Emaps Trust  - Pillars</p>
         </div>
-
-
         <div class="owl-carousel testimonials-carousel">
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <!--<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
             <h3>G S Narasimhan</h3>
-            <h4>Chief Trustee</h4>
+            <h4>President</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              President of Emaps Trust - Brief Introduction to be Added
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-            <h3>Devarajan</h3>
-            <h4>Trustee</h4>
+            <!--<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
+            <h3>V Krishnan</h3>
+            <h4>Secretary</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Devarajan - 25+ years of experience in Srivaishnavam service
+              Secretary of EMaps Trust -  In Srivaishnavam service
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Giridharan</h3>
-            <h4>Trust Member</h4>
+            <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
+            <h3>K Giridharan</h3>
+            <h4>Joint Trustee</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Giridharan   -
+              Joint Trustee - Emaps Trust - Accountant by Profession in Bagavatha Kainkaryam
+
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-            <h3>Sudharshan</h3>
-            <h4>Trustee  Advisor</h4>
+            <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""> -->
+            <h3>K RAGHAVAN</h3>
+            <h4>Treasurer</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              25+ years of experience in Srivaishnavam service
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  Treasurer Empas Trust - Maintain Book of records              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>Ramanujam</h3>
-            <h4>Designer</h4>            
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>V Uppiliappan</h3>
+            <h4>Trustee</h4>            
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              EMpas Site Design owner
+              Trustee - Support Emaps Trust Activities
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
+
+
+          <div class="testimonial-item">
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>K L Srinivasan</h3>
+            <h4>Trustee</h4>            
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Trustee - Support Emaps Trust Activities
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+
+<div class="testimonial-item">
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>C P MADHUSUDAN</h3>
+            <h4>Trustee</h4>            
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Trustee - Support Emaps Trust Activities
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+
+<div class="testimonial-item">
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>V Uppiliappan</h3>
+            <h4>Trustee</h4>            
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Trustee - Support Emaps Trust Activities
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+
+<div class="testimonial-item">
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>K Devarajan</h3>
+            <h4>Trustee</h4>            
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Trustee - Support Emaps Trust Activities
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+<div class="testimonial-item">
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>G N LAKSHMI NARAYANAN</h3>
+            <h4>Trustee</h4>            
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Trustee - Support Emaps Trust Activities
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+<div class="testimonial-item">
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>T R Lakshminarayanan - Charted Accountant</h3>
+            <h4>Auditor</h4>            
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Charted Account - Support Emaps Trust Activities
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+
+<div class="testimonial-item">
+            <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
+            <h3>K GOPAL B Com,LLB</h3>
+            <h4>Advocate</h4>            
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Legal Advisor - Support Emaps Trust Activities
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+
+
+
 
         </div>
 
@@ -668,9 +1039,86 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
-          <h2>Contribute</h2>
+          <h2><span>Contribute</span></h2>
           <p>Kainkaryam For Good Cause</p>
         </div>
+        <hr class="botm-line"> 
+
+        <div class="section-head-title" data-aos="zoom-out">
+          <h2>Donate</h2>
+        </div>
+
+<table class="table">
+  <thead class="black white-text">
+    <tr>
+      <th scope="col"># S.No</th>
+      <th scope="col">Corpus Name</th>
+      <th scope="col">Amount</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pushpam and Deepa Kainkaryam</td>
+      <td>5, 000</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Vastram</td>
+      <td>5, 000</td>
+
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Thathiyaradhanai</td>
+      <td>5, 000</td>
+
+      
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Sambavanai</td>
+      <td>5, 000</td>
+
+      
+    </tr>
+  
+  <tr>
+      <th scope="row">5</th>
+      <td>Building Maintanence</td>
+      <td>5, 000</td>
+
+      
+    </tr>
+  
+<tr>
+      <th scope="row">6</th>
+      <td>Utsavam</td>
+      <td>5, 000</td>
+      
+    </tr>
+
+    <tr>
+      <th scope="row">7</th>
+      <td>General Donation</td>
+      <td>1,000</td>
+      
+    </tr>
+
+  </tbody>
+</table>
+
+        <hr class="botm-line"> 
+        <p> </p>
+
+        <br>
+<div class="section-head-title" data-aos="zoom-out">
+          <h2>Bankers</h2>
+        </div>
+
+
 
         <div class="row">
 
@@ -687,10 +1135,9 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
               2. Lakshmi Vilas Bank, Branch 31/18, Kamaraj High Road, New Perungalathur Chennai —600 063, Tamil Nadu, India. saving sank A/c NO. 0550301000016761 IFSC code: LAVB0000550 ELANAGAR MAHANEEYA ACHARYA PURISHAS SEVA TRUST (REGD)
 
 -->
-              <h3>Sri G S Narasimhan <br> 9551011680 ,  9003228397</h3>
+              <h4>ELANAGAR MAHANEEYA ACHARYA PURISHAS SEVA TRUST (REGD)</h4>
              <p>
               <ul>
-                <li><h6>ELANAGAR MAHANEEYA ACHARYA PURISHAS SEVA TRUST (REGD)</h6></li> 
                 <li><h2>Current A/c No:  6638293181</h2></li>
                 <li><h4>IFSC code: IDIBOOOP169 </h4></li>
                 <li><h2>Indian Bank, Perungalathur Branch</h2></li>
@@ -710,10 +1157,9 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
 
           <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Sri. K Devarajan <br> 9791010039 </h3>
+              <h4>ELANAGAR MAHANEEYA ACHARYA PURISHAS SEVA TRUST (REGD)</h4>
               <p>
-              <ul>
-                <li><h6>ELANAGAR MAHANEEYA ACHARYA PURISHAS SEVA TRUST (REGD)</h6></li> 
+              <ul>    
               <li><h2>Savings A/c No:   0550301000016761</h2></li>
                 <li><h4>IFSC code: LAVB0000550 </h4></li>
                 <li><h2> Lakshmi Vilas Bank</h2></li>
@@ -782,7 +1228,11 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
 
         <div class="section-title">
           <h2><span>Contact</span> Us</h2>
-          <br> Connect and help us in our service.</p>
+          <br>
+
+           The village called Elanagar (in Sanskrit, Bala Nagar or BALAPURI) is in Uthiramerur Taluk in Kanchipuram District of Tamil Nadu in India. 
+            It is located around 100 kilometers away from Chennai, the capital of Tamil Nadu. <br> <br>
+          To be exact, it is 25 kilometers from Kanchipuram leading to Vandavasi.    Elanagar (Bala Nagar) is at the midpoint of triangle connecting Kancheepuram (where traditional orthodox scholars meet to discuss about Spirituality) on the northern side, Uthiramerur (which is of archaeological importance) on the eastern side and Vandavasi (which is of historical importance) on the southern side.
         </div>
       </div>
         
@@ -799,7 +1249,7 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
             <div class="col-lg-3 col-md-6 info">
               <i class="icofont-google-map"></i>
               <h4>Ilanagar Temple Location:</h4>
-              <p>Ramanujam St<br>New Perungalathur , Chennai -63</p>
+              <p>Ilanagar<br> Uthiramerur Tauluk, Kanchipuram Dt </p>
               </div>
               
             <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
@@ -872,7 +1322,7 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
   <footer id="footer">
     <div class="container">
       <h3>EMPAS Trust</h3>
-       <p>ELANAGAR MAHANEEYA ACHARYA PURISHAS SEVA TRUST <br>
+       <p>ELANAGAR MAHANEEYA ACHARYA PURUSHAS SEVA TRUST <br>
       Public Religious Trust registered u/s 12AA Only </p>
         <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -884,8 +1334,10 @@ On the plot mentioned above, to carry out the Divine activities such as the ones
       <div class="copyright">
         &copy; Copyright <strong><span>EMPAS Trust</span></strong>. All Rights Reserved
       </div>
+      <br>
       <div class="container">
-              <h4>Designed by Athuzhai Designs</h4>     </a>
+              <h4>Designed by Athuzhai Designs  </h4> <p>Contact for Webdesign: 91-984074664 </p>
+                  <!--</a> -->
       </div>
     </div>
   </footer><!-- End Footer -->
