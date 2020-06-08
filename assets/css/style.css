@@ -131,6 +131,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* - Medlib for bottom */
+hr.botm-line {
+    height: 3px;
+    width: 220px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 20px 20px 0;
+}
+
+/* - Medlib for bottom */
+hr.extbotm-line {
+    height: 3px;
+    width: 1020px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 20px 20px 0;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -553,6 +573,18 @@ section {
   padding-bottom: 30px;
 }
 
+.section-head-title {
+    padding-bottom: 30px;
+}
+
+.section-head-title h2 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffb03b;
+}
+
+
 .section-title h2 {
   margin: 15px 0 0 0;
   font-size: 32px;
@@ -596,6 +628,8 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
 }
 
 .about .content p {
@@ -935,9 +969,9 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
-  background-size: cover;
-  position: relative;
+  background: url(../img/Thiruman3.png) center center no-repeat;
+  background-size: auto;
+  position: relative; 
 }
 
 .events::before {
@@ -965,7 +999,7 @@ section {
 }
 
 .events .events-carousel {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);*
   padding: 30px;
 }
 
@@ -1256,6 +1290,7 @@ background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
+  background-color: rgba(238, 238, 238, 0.15); 
 
 }
 
@@ -1286,7 +1321,7 @@ background: url("../img/testimonials-bg.jpg") no-repeat;
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #ffb03b;
@@ -1294,8 +1329,10 @@ background: url("../img/testimonials-bg.jpg") no-repeat;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #ddd;
+  font-size: 20px;
+  color: #ffb02b;
+  font-weight: bold;
+
   margin: 0 0 15px 0;
   font-family: "Comic Neue", sans-serif;
 }
@@ -1526,11 +1563,10 @@ background: url("../img/testimonials-bg.jpg") no-repeat;
 }
 
 .pricing h3 {
-  font-weight: 400;
   margin: -20px -20px 25px -20px;
-  padding: 30px 15px;
-  font-size: 18px;
-  font-weight: 600;
+  padding: 20px 10px;
+  font-size: 10px;
+  font-weight: 200;
   color: #777777;
   background: #f8f8f8;
 }
@@ -1700,4 +1736,202 @@ background: url("../img/testimonials-bg.jpg") no-repeat;
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+/* Drop Down - Submenu */
+
+
+.nav-menu .drop-down ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(100% - 30px);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px 0;
+  background: #ddd;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: ease all 0.3s;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.nav-menu .drop-down:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.nav-menu .drop-down li {
+  min-width: 180px;
+  position: relative;
+}
+
+.nav-menu .drop-down ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: none;
+  color: #2a2c39;
+}
+
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+  color: #ef6603;
+  background: none;
+}
+
+.nav-menu .drop-down > a:after {
+  content: "\ea99";
+  font-family: IcoFont;
+  padding-left: 5px;
+}
+
+.nav-menu .drop-down .drop-down ul {
+  top: 0;
+  left: calc(100% - 30px);
+}
+
+.nav-menu .drop-down .drop-down:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu .drop-down .drop-down > a {
+  padding-right: 35px;
+}
+
+.nav-menu .drop-down .drop-down > a:after {
+  content: "\eaa0";
+  font-family: IcoFont;
+  position: absolute;
+  right: 15px;
+}
+
+/* Features - About Emaps*/
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .nav-tabs {
+  border: 0;
+}
+
+.features .nav-link {
+  border: 1px solid #d4d6df;
+  padding: 15px;
+  transition: 0.3s;
+  color: #2a2c39;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.features .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.features .nav-link:hover {
+  color: #ef6603;
+}
+
+.features .nav-link.active {
+  background: #ef6603;
+  color: #fff;
+  border-color: #ef6603;
+}
+
+@media (max-width: 768px) {
+  .features .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .features .nav-link {
+    padding: 15px;
+  }
+  .features .nav-link i {
+    font-size: 24px;
+  }
+}
+
+.features .tab-content {
+  margin-top: 30px;
+}
+
+.features .tab-pane h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+.features .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ef6603;
+}
+
+.features .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+
+/***************************************
+Medlib about - Acharya Purusha
+***************************************/
+#Acharya{
+  /*  background-color: rgba(238, 238, 238, 0.15); */
+}
+.lg-line{
+  line-height: 1.4;
+  font-size: 28px;
+}
+.more-features-box-text-icon {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding-top: 6px;
+    background: #0cb8b6;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+}
+.more-features-box-text-description h3{
+    padding-bottom: 15px;
+}
+.more-features-box-text-icon i {
+    font-size: 18px;
+    line-height: 26px;
+}
+.more-features-box-text-description{
+  margin-left: 80px;
+  margin-bottom: 35px;
+}
+.sec-para{
+  padding-bottom: 10px;
 }
